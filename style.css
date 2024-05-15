@@ -53,8 +53,9 @@ li {
     display: block;
     margin-block: 10px;
     padding: 5px;
-    animation: move 1.5s infinite alternate;
+    animation: move 1.5s infinite ease-in-out;
     color: var(--yellow);
+    border-radius: 5px;
 }
 
 .arrow:hover {
