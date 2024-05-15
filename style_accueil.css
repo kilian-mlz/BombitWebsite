@@ -34,7 +34,7 @@ html, body {
 }
 
 .navbar p{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .acc{
@@ -53,6 +53,7 @@ html, body {
 .acc h1{
     color: var(--yellow);
     text-align: center;
+    font-size: 2.5em;
 }
 
 .card-container{
@@ -60,6 +61,12 @@ html, body {
     justify-content: space-between;
     margin-inline: 140px;
 }
+
+.card-container a{
+    text-decoration: none;
+    color: var(--brown);
+}
+
 .card{
     background-color: var(--yellow);
     align-content: center;
@@ -67,12 +74,27 @@ html, body {
     width: 250px;
     border-radius: 10px;
     animation: zoom 1s infinite ease-in-out;
+    transition: transform 0.3s ease;
 }
 
 .card:hover{
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .card p{
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .acc {
+        margin-inline: 20px;
+    }
+    .card-container {
+        flex-direction: column;
+        margin-inline: 20px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
 }

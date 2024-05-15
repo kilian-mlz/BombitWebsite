@@ -6,9 +6,10 @@
     <title>Accueil</title>
 </head>
 <body>
+
 <a href="index.php">
     <div class="navbar">
-        <p>Menu</p>
+        <p>Accueil</p>
     </div>
 </a>
 <div class="acc">
@@ -18,15 +19,21 @@
     </div>
 
     <div class="card-container">
-        <div class="card">
-            <p>Téléchargement</p>
-        </div>
-        <div class="card">
-            <p>Règles</p>
-        </div>
-        <div class="card">
-            <p>Contacts</p>
-        </div>
+        <a href="#">
+            <div class="card">
+                <p>Téléchargement</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <p>Règles</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <p>Contacts</p>
+            </div>
+        </a>
     </div>
 </div>
 </body>
