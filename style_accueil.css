@@ -9,10 +9,10 @@
     --black: rgba(0,0,0,0.2);
 }
 
-@keyframes move {
-    0% { transform: translateX(-600px); }
-    50% { transform: translateX(600px); }
-    100% { transform: translateX(-600px); }
+@keyframes zoom {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
 }
 
 html, body {
@@ -35,10 +35,44 @@ html, body {
 
 .navbar p{
     font-size: 1.1em;
-    animation: move 20s infinite linear;
 }
 
-h1{
+.acc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-inline: 60px;
+    margin-top: 70px;
+}
+
+.pres{
+    text-align: center;
     color: var(--yellow);
+}
+
+.acc h1{
+    color: var(--yellow);
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 140px;
+}
+.card{
+    background-color: var(--yellow);
+    align-content: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    animation: zoom 1s infinite ease-in-out;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card p{
     text-align: center;
 }
