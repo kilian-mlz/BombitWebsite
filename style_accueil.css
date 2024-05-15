@@ -1,0 +1,44 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+:root{
+    --font: "Press Start 2P";
+    --brown: #221;
+    --light_yellow: #fff090;
+    --green: #4FAF44;
+    --yellow: #F6EB14;
+    --black: rgba(0,0,0,0.2);
+}
+
+@keyframes move {
+    0% { transform: translateX(-600px); }
+    50% { transform: translateX(600px); }
+    100% { transform: translateX(-600px); }
+}
+
+html, body {
+    margin: 0;
+    font-family: var(--font);
+    background-color: var(--brown);
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: var(--yellow) 1px solid;
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.navbar p{
+    font-size: 1.1em;
+    animation: move 20s infinite linear;
+}
+
+h1{
+    color: var(--yellow);
+    text-align: center;
+}
