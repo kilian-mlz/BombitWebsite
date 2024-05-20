@@ -35,6 +35,10 @@ html, body {
     background-color: var(--brown);
     color: var(--yellow);
     text-decoration: underline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .navbar p {
@@ -46,7 +50,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     gap: 13vh;
-    padding: 5vh 5vw;
+    padding: 15vh 5vw 5vh 5vw;  /* Adjusted padding to account for fixed navbar */
 }
 
 .pres {
@@ -100,7 +104,7 @@ html, body {
         font-size: 1em;
     }
     .acc {
-        padding: 5vh 2vw;
+        padding: 15vh 2vw 5vh 2vw;  /* Adjusted padding to account for fixed navbar */
     }
     .card-container {
         flex-direction: column;
@@ -112,3 +116,60 @@ html, body {
         height: 15vh;
     }
 }
+
+#rule {
+    background-color: var(--yellow);
+    padding: 20px;
+}
+
+#rule #left {
+    text-align: center;
+    width: 40vw;
+}
+
+#rule #right {
+    text-align: center;
+    width: 40vw;
+}
+
+#rule h2 {
+    color: var(--brown);
+}
+
+.text {
+    margin-inline: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.dl_contact{
+    display: flex;
+    justify-content: space-between;
+    color: var(--yellow);
+}
+
+.dl_contact h2{
+    margin-left: 20px;
+}
+
+.dl{
+    padding: 20px;
+    width: 50vw;
+    color: var(--brown);
+    background-color: var(--light_yellow);
+    height: 300px;
+}
+
+.contact{
+    padding: 20px;
+    width: 50vw;
+}
+
+.contact p{
+    margin: 30px;
+}
+

@@ -9,9 +9,9 @@
 
 <ol>
     <li><a class="arrow" href="accueil.php">Accueil</a></li>
-    <li><a class="arrow">Règles</a></li>
-    <li><a class="arrow">Téléchargement</a></li>
-    <li><a class="arrow">Contacts</a></li>
+    <li><a class="arrow" href="accueil.php#rules">Règles</a></li>
+    <li><a class="arrow" href="accueil.php#dl_contact">Téléchargement</a></li>
+    <li><a class="arrow" href="accueil.php#dl_contact">Contacts</a></li>
     <li><a class="arrow">Crédits</a></li>
 </ol>
 
