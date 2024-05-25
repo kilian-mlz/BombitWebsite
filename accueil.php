@@ -45,7 +45,8 @@
             <br><br> LES BOMBES: <br> Les bombes sont mortelles pour le joueur. Elles tueront le jour si il se situe dans son rayon d'éxplosion qui est de <strong>
                 2 blocs</strong> Vous pouvez une bombe en pressant la touche <strong>space</strong></p>
         <p id="right">Les bombes exploseront 2 secondes après avoir étaient posées. <br><br> Les ennemies: <br> Si vous entrez en collision avec des ennemies vous perdez automatiquement. Vous pouvez tuer les énnemies avec vos bombes. Une fois tous les ennemies morts vous gagnez la partie.
-            <br><br> La map: <br> La map est générée automatiquement. Une seule instance du jeu n'est pas généree aléatoirement ce sont les murs incassables qui eux restes fixes.</p>
+            <br><br> La map: <br> La map est générée automatiquement. Une seule instance du jeu n'est pas généree aléatoirement ce sont les murs incassables.
+            <br><br> Autre: <br> Si vous voulez quitter le jeu en cours de partie, appuyez sur <strong>ECHAPPE</strong></p>
     </div>
 </div>
 
