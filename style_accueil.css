@@ -157,6 +157,8 @@ h2{
 }
 
 .dl{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     width: 50vw;
     color: var(--brown);
@@ -164,11 +166,28 @@ h2{
     height: 300px;
 }
 
+.dl .card{
+    background-color: var(--brown);
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.dl a{
+    text-decoration: none;
+    color: var(--yellow);
+}
 .contact{
     padding: 20px;
     width: 50vw;
 }
 
+.contact h2{
+    margin-bottom: 60px;
+}
+
+.contact .person{
+    margin-inline: 100px;
+}
 .contact p{
     margin: 30px;
 }

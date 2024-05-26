@@ -38,7 +38,7 @@
 </div>
 <div id="rules"></div>
 <div id="rule">
-    <h2>RULES</h2>
+    <h2>REGLES</h2>
     <div class="text">
         <p id="left">1. Les murs: <br> Il existe 2 types de murs, des cassables et des incassables. Vous pouvez les casser en utilisant les bombes. <br><br> Les déplacements:
             <br> Pour vous déplacer vous dévez utiliser les <strong>4 fléches directionnelles</strong> pour soit aller à gauche en bas vers le haut ou encore à droite.
@@ -53,11 +53,22 @@
 <div class="dl_contact" id="dl_contact">
     <div class="dl">
         <h2>Téléchargement</h2>
+        <a href="BOMBIT.zip">
+            <div class="card">
+                <p>Télécharger</p>
+            </div>
+        </a>
     </div>
     <div class="contact">
         <h2>Contacts</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat ac felis donec et odio. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Quis enim lobortis scelerisque fermentum dui faucibus. </p>
-
+        <div class="person">
+            <h4>KILIAN MILLIEZ</h4>
+            <p>kilian.milliez@ecole-it.com</p>
+        </div>
+        <div class="person">
+            <h4>ENZO POUSSIN</h4>
+            <p>enzo.poussin@ecole-it.com</p>
+        </div>
     </div>
 </div>
 </body>
